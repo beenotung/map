@@ -10,12 +10,6 @@ The demo language is a subset of PHP. It is not strictly following the PHP synta
 
 Expression is the basis unit of the language. It can be a literal value, variable reference, math expression, logical expression, function call, etc.
 
-### Symbol Name
-
-The symbol name is the identifier of a variable, function, class, etc. The symbol name can consist of letters, digits, underscores, hyphen, and dot.
-
-Example: `user-id`, `User`, `user.name`
-
 ### Literal Value
 
 Literal value is a constant value in the language. It can be a string, number, boolean, null, etc.
@@ -39,6 +33,12 @@ Example: `1 < 2`, `1 + 2 == 3`, `1 != 2`, `3 > 2`, `1 + 1 >= 2`
 Bracket expression gives priority to the expression inside the brackets.
 
 Example: `(1 + 2) * 3` will result in `9`
+
+### Symbol Name
+
+The symbol name is the identifier of a variable, function, class, etc. The symbol name can consist of letters, digits, underscores, hyphen, and dot.
+
+Example: `user-id`, `User`, `user.name`
 
 ### Variable Reference
 
